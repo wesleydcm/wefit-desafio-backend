@@ -78,7 +78,6 @@ public class UserRegistrationService {
                 dto.getFullName(),
                 dto.getMobilePhone(),
                 dto.getLandlinePhone(),
-                dto.getConfirmEmail(),
                 dto.getPostalCode(),
                 dto.getStreet(),
                 dto.getNumber(),

@@ -31,7 +31,6 @@ public class User {
     private String fullName;
     private String mobilePhone;
     private String landlinePhone;
-    private String confirmEmail;
     private String postalCode;
     private String street;
     private String number;

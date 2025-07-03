@@ -1,6 +1,6 @@
 package com.wefit.desafio_backend.domain.dto;
 
-import com.wefit.desafio_backend.domain.enums.PersonType;
+
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
@@ -13,7 +13,7 @@ public class UserRegistrationDTO {
     private String email;
 
     @NotBlank(message = "Person type is required")
-    private String personType; // Será convertido para PersonType no serviço
+    private String personType;
 
     private String cpf;
     private String cnpj;
